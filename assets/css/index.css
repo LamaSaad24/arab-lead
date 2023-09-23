@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url("fonts/Asap-Regular.ttf");
+}
+
+:root {
+    --text-success: #749d35;
+    --text-gray-400: #ced4da;
+    --text-black: #111111;
+    --text-black-400: #212529;
+    --text-black-500: #adb5bd;
+    --text-black-600: #6c757d;
+    --bg-gray: #eee;
+}
+
+.bg-primary-gradiant {
+    background: linear-gradient(135deg,
+            var(--theme-color),
+            var(--theme-color-shade)) !important;
+}
+
+.bg-gold-gradiant {
+    background: linear-gradient(to right, #d88945, #f2c94c) !important;
+}
+
+.bg-mini-gradiant {
+    background: linear-gradient(to right, #ee0979, #ff6a00) !important;
+}
+
+.bg-blue-gradiant {
+    background: linear-gradient(to right, #0575e6, #021b79) !important;
+}
+
+.bg-red-gradiant {
+    background: linear-gradient(to right, #e44d26, #f16529) !important;
+}
+
+.bg-grey-light {
+    background-color: #f5f5f5 !important;
+}
+
+.bg-success-gradiant {
+    background: linear-gradient(to right, #749d35, #b1d823) !important;
+}
